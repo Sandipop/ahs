@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="op.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="">Aiho High School</a>
+    </div>
+    <div class="hamburger scale-in-center">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            
+            <li>
+                <a href="">Teachers & staffs</a>
+            </li>
+            <li>
+                <a href="">Gallery</a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/presentation/d/1uhkb8t7IRxHLwkJsPFp_fPkejVEH3EWC3KJgpv-OZG0/present" target="_blank"  class="active pulsate-fwd ">Notice Board<div class="reddot"></div></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="home">
+    <div class="banner">
+        <img src="New Project (4).jpg" alt="" class="bnr-img">
+        <div class="bnr-text">
+            <div class="wrap scale-in-center">
+            <h1>Aiho High School (HS)</h1>
+            <p>An Educational Institution affiliated to WBBSE and WBCHSE</p>
+            <p>Established in 1945</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+
+
+
+<script>
+    hamburger = document.querySelector(".hamburger");
+    bnrimg = document.querySelector(".bnr-img");
+    bnrtext = document.querySelector(".bnr-text");
+    hamburger.onclick = function(){
+        navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+        bnrimg = document.querySelector(".bnr-img");
+        bnrimg.classList.toggle("active");
+        bnrtext = document.querySelector(".bnr-text");
+        bnrtext.classList.toggle("active");
+        hamburger=document.querySelector(".hamburger");
+        hamburger.classList.toggle("active")
+
+    }
+    
+    
+</script>
+</body>
+</html>
