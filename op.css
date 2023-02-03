@@ -256,7 +256,7 @@ header{
     }
     .bnr-text{
         
-        top:110px;
+        top:80px;
         height: 20%;
         width: 100%;
         transition: 0.25s;
@@ -266,10 +266,10 @@ header{
         opacity: 0;
     }
     .bnr-text h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .bnr-text p{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
